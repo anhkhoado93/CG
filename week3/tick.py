@@ -108,6 +108,7 @@ def display():
 
     drawTickLine(O, x, arrow = True, numbering=-1)
     drawTickLine(O, y, arrow = True, numbering= 1)
+    
     glFlush()
 
 def main(argv):
