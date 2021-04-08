@@ -19,9 +19,6 @@ def init():
     glEnable(GL_POINT_SMOOTH)
 
 
-
-
-
 def getPerp2D(a):
     return np.array([-a[1], a[0]])
 
@@ -108,7 +105,7 @@ def display():
 
     drawTickLine(O, x, arrow = True, numbering=-1)
     drawTickLine(O, y, arrow = True, numbering= 1)
-    
+
     glFlush()
 
 def main(argv):
